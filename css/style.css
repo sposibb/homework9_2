@@ -22,3 +22,19 @@ h1 {
   padding-top: 134px;
   padding-left: 129px;
 }
+p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(23, 23, 23, 0.7);
+}
+p:first-of-type::first-letter {
+  font-family: "Playfair Display", serif;
+  font-size: 110px;
+  line-height: 91px;
+  float: left;
+  color: #000;
+  margin-right: 18px;
+}
